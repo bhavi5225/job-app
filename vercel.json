@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/api/hello" }
+    ],
+    "builds": [
+      { "src": "api/**/*.js", "use": "@vercel/node" }
+    ]
+  }
+  
